@@ -28,16 +28,21 @@ body {
 .blok {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .pravy {
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+.levy {
+  flex-grow: 1;
 }
 
 .kontejner {
   display: flex;
   flex-direction: row;
-  align-content: stretch;
 }

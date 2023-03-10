@@ -17,3 +17,20 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.horni {
+    flex-grow: 3;
+}
+
+.prvni {
+    flex-shrink: 1;
+}
+
+.druhy {
+    flex-shrink: 1;
+}

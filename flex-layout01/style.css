@@ -30,3 +30,28 @@ body {
 }
 
 /* ---------------------------------------------------- */
+
+.sloupec {
+  display: flex;
+  flex-direction: column;
+}
+
+.pravy {
+  order: 3;
+  flex-grow: 1;
+}
+
+.levy {
+  order: 1;
+  flex-grow: 1;
+}
+
+.hlavni {
+  order: 2;
+  flex-grow: 2;
+}
+
+.kontejner {
+  display: flex;
+  flex-direction: row;
+}

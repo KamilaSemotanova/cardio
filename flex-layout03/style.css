@@ -29,15 +29,15 @@ body {
 
 .prvni {
     flex-grow: 1;
-    width: calc(100vw/3);
+    width: calc(100%/3);
 }
 
 .druhy {
     flex-grow: 1;
-    width: calc(100vw/3);
+    width: calc(100%/3);
 }
 
 .treti {
     flex-grow: 1;
-    width: calc(100vw/3);
+    width: calc(100%/3);
 }

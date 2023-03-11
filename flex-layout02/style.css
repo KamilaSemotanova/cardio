@@ -34,8 +34,15 @@ body {
 .pravy {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  flex-grow: 1;
+  align-items: stretch;
+}
+
+.horni {
+  flex-basis: 50%;
+}
+
+.dolni {
+  flex-basis: 50%;
 }
 
 .levy {
@@ -45,4 +52,6 @@ body {
 .kontejner {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
 }

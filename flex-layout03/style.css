@@ -24,13 +24,20 @@ body {
 }
 
 .horni {
-    flex-grow: 3;
+    width: 100vw;
 }
 
 .prvni {
-    flex-shrink: 1;
+    flex-grow: 1;
+    width: calc(100vw/3);
 }
 
 .druhy {
-    flex-shrink: 1;
+    flex-grow: 1;
+    width: calc(100vw/3);
+}
+
+.treti {
+    flex-grow: 1;
+    width: calc(100vw/3);
 }
